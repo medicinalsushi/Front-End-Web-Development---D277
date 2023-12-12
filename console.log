@@ -1,0 +1,2 @@
+//Write a statement that displays: 3 2 1 Go!
+console.log("3 2 1 Go!")
