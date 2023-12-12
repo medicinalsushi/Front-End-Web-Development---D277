@@ -1,0 +1,16 @@
+//executes the loop body before checking the loop's condition to determine if the loop should execute again (will always run once)
+
+/*
+do {
+   body
+} while (condition);
+*/
+
+//example
+i = 1;
+do {
+   console.log(i);
+   i++;
+} while (i <= 4);
+console.log("Done!");
+
