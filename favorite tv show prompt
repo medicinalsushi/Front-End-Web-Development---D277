@@ -1,0 +1,10 @@
+// Call prompt() to get the user's favorite TV show
+let tvShow = prompt();
+
+if (tvShow === null) {
+   console.log("You did not enter a TV show.");
+}
+else {
+   console.log(tvShow);
+}
+
