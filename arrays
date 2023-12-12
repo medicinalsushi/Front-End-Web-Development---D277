@@ -1,0 +1,20 @@
+//arrays are ordered collections of values called elements
+//elements are stored in a numeric location called an index and count begins at 0
+//arrays may have same or different types of elements
+
+//example
+let scores = [];
+
+scores[0] = 6;
+scores[1] = 15;
+scores[2] = 8;
+
+console.log(scores[0]);
+console.log(scores[1]);
+console.log(scores[2]);
+
+let teams = ["Tigers", "Bisons", 
+             "Eagles", "Cobras"];
+
+console.log(teams);
+
