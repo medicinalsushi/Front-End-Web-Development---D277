@@ -1,0 +1,20 @@
+/*
+three parts
+initialization
+condition
+variable update
+
+for (initialization; condition; finalExpression) {
+   body
+}
+
+*/
+
+//example
+
+
+for (i = 1; i <= 4; i++) {
+   console.log(i);
+}
+console.log("Done!");
+
