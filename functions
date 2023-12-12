@@ -1,0 +1,21 @@
+//function is a named group of statements
+//declared with function keyword followed by function name and parameters in ()
+//argument - provided to function's parameters when the function is called
+
+/*
+function functionName(parameter1, parameter2, ...) {
+   // Statements to execute when function is called
+
+}
+*/
+
+//example
+function displaySum(x, y, z) {
+   let sum = x + y + z;
+   console.log(sum);
+}
+
+console.log("About to call function");
+displaySum(2, 5, 3);
+console.log("Returned from function");
+
