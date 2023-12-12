@@ -1,0 +1,4 @@
+let numItems = 10;
+
+/* Your solution goes here */
+console.log("There are " + numItems + " items.")
