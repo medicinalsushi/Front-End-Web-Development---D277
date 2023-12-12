@@ -1,0 +1,7 @@
+//string - group of characters with single or double quotes 
+//number - number with or without decimal places
+//boolean - true or false
+//array - list of items
+//object - collection of property and value pairs
+//undefined - var has not been assigned value 
+//null - intentionally absent of any object value
