@@ -1,0 +1,3 @@
+if (condition) {
+   // Statements to execute when condition is true 
+}
