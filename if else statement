@@ -1,0 +1,6 @@
+if (condition) {
+   // statements to execute when condition is true 
+}
+else {
+   // statements to execute when condition is false
+}
