@@ -1,0 +1,34 @@
+/*react is a front end javascript library for creating interactive user interfaces
+allows developers to create custom HTML elements with behavior defined in JavaScript and styles defined in CSS. 
+React automatically updates the UI when data within the HTML changes
+
+The example below illustrates how React works. The example calls two important React methods:
+ReactDOM.createRoot() creates and returns a root DOM node inside the given element. The root DOM node is any DOM node that is managed by React. 
+Usually only one root DOM node exists in a webpage.
+Root.render() renders a React element into the root DOM node. 
+React uses a virtual DOM, an in-memory copy of the browser's DOM, to facilitate the rendering of the root DOM node into the browser's DOM.
+https://www.codecademy.com/article/react-virtual-dom
+
+*/
+
+//sample
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Hello React!</title>
+      <script src="https://unpkg.com/react/umd/react.development.js"></script>
+      <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+      <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+   </head>
+   <body>
+      <div id="root"></div>
+
+      <script type="text/babel">
+     
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<h1>Hello React!</h1>);
+         
+      </script>
+   </body>
+</html>
+
